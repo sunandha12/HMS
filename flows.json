@@ -1,0 +1,1 @@
+[{"id":"299a29cb.b1f446","type":"function","z":"f737f7db.b19f38","name":"parameters","func":"global.set(\"SBP\",msg.payload.SBP)\nglobal.set(\"DBP\",msg.payload.DBP)\nglobal.set(\"Pulse\",msg.payload.Pulse)\nglobal.set(\"Temperature\",msg.payload.Temperature)\nreturn msg;","outputs":1,"noerr":0,"x":184,"y":179,"wires":[["330367b6.561a38","d1ef7dfd.976bc"]]}]
